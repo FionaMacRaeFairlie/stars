@@ -13,7 +13,7 @@ export default function StarRating({ totalStars = 5 }) {
           selected={selectedStars > i}
           onSelect={() => setSelectedStars(i + 1)}
         />
-       
+         
       ))
       
       }

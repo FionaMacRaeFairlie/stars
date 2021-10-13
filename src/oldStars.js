@@ -17,7 +17,7 @@ export default class OldStarRating extends Component {
       console.log({selected});
   }
 
-  render() {
+  render() {    
     const { totalStars } = this.props;
     const { starsSelected } = this.state;
 
