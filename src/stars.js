@@ -15,7 +15,7 @@ export default function StarRating({ totalStars = 5 }) {
         />
          
       ))
-      
+    
       }
       <p>
         {selectedStars} of {totalStars} stars
